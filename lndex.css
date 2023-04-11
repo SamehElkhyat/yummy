@@ -1,0 +1,125 @@
+
+body {
+    text-align: center;
+background-color: black;
+color: white;
+}
+#rowdata{
+margin-top: 30px;
+    padding: auto;
+}
+.imgIcon{
+    margin-top: 10px;
+
+}
+.imgIcon:hover .overlay{
+    top:0;
+}
+.lastIcon{
+
+    position: relative;
+    top: 280;
+    bottom: 0;
+}
+#sidebar{
+background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  z-index: 999999;
+}
+
+#logo{
+    width: 10%;
+    position: relative;
+    bottom: -100px;
+   
+}
+.side{
+    width: 30%;
+    height:100%;
+   position: relative;
+  left:280px;
+  top:-50;
+  bottom: 0;
+  z-index: 999999;
+}
+#bar{
+
+  background-color: bisque;
+    position: relative;
+    
+    
+}
+#sidebar i{
+
+align-self: flex-start;
+    color: rgb(255, 0, 0);
+ 
+      
+}
+.knife{
+    font-size: 35px;
+}
+.slider a{
+    color: #fff;
+    text-decoration: none;  
+    cursor: pointer;
+}
+.slider li{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    position: relative;
+    font-weight: 300;
+    margin: 25px 0;
+    list-style-type: none;
+     
+
+}
+#loading{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 99999999;
+}
+#loading i{
+    color: #fff;
+    z-index: 99999999;
+}
+
+.lastIcon{
+    position:relative;
+    z-index: 9999999;
+}
+.lastIcon p{
+    color: #999;
+}
+i{
+    cursor: pointer;
+}
+.slider li{
+    position: relative;
+    font-weight: 300;
+    margin: 25px 0;
+    list-style-type: none;
+    top: 200px;
+    overflow: hidden;   
+
+}
+
+.imgIcon:hover .overlay{
+    top:0;
+}
+.overlay{
+  color: #000;
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    position: absolute;
+    top: 100%;
+    transition: top 1s;
+}
